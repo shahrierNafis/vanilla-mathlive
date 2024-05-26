@@ -6,10 +6,14 @@
     .whenDefined("math-field")
     .then(() => document.body.classList.add("ready"));
 </script>
-<link rel="stylesheet" href="/src/style.css" /><math-field
-  data-gramm="false"
-  data-gramm_editor="false"
-  data-enable-grammarly="false"
-  id="formula"
-></math-field>
+
+<link rel="stylesheet" href="/src/style.css" />
+<div class="container">
+  <math-field
+    data-gramm="false"
+    data-gramm_editor="false"
+    data-enable-grammarly="false"
+    id="formula"
+  ></math-field>
+</div>
 <script type="module" src="/src/script.js"></script>
