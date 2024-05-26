@@ -1,0 +1,15 @@
+<script>
+  window.addEventListener("DOMContentLoaded", (event) =>
+    import("//unpkg.com/mathlive/dist/mathlive.min.mjs")
+  );
+  customElements
+    .whenDefined("math-field")
+    .then(() => document.body.classList.add("ready"));
+</script>
+<link rel="stylesheet" href="/src/style.css" /><math-field
+  data-gramm="false"
+  data-gramm_editor="false"
+  data-enable-grammarly="false"
+  id="formula"
+></math-field>
+<script type="module" src="/src/script.js"></script>
