@@ -1,6 +1,6 @@
  body {
    visibility: hidden;
-   overflow: hidden;
+   overflow-x: hidden;
    color: white;
    background: lightblue;
  }
